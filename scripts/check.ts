@@ -2,8 +2,8 @@
 // Lesson 1 check: confirms notes.md exists and isn't empty.
 // It doesn't judge the content — a reviewer does that.
 
-const fs = require("fs");
-const path = require("path");
+import fs from "node:fs";
+import path from "node:path";
 
 const file = path.join(process.cwd(), "notes.md");
 
